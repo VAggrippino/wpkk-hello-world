@@ -25,4 +25,20 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 // This works, but you might not be able to see it.
-echo "Hello World";
+?>
+<style>
+	.wpkk-hello-world {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 9001;
+		color: #bada55;
+		background-color: white;
+		box-shadow: 1px 1px 3px 0 black;
+		font-size: 3rem;
+		line-height: 1em;
+		padding: 1em;
+	}
+</style>
+<h1 class="wpkk-hello-world">Hello World</h1>
